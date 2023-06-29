@@ -111,35 +111,35 @@ h1{
 
 /* small card hover start */
 .card-holder:hover .card:nth-child(2) {
-    transform: rotate(-20deg) translate(-50px, 70px);
+    transform: rotate(-40deg) translate(-185px, 0px);
 }
 
 .card-holder:hover .card:nth-child(4) {
-    transform: rotate(17deg) translate(-60px, -40px);
+    transform: rotate(-15deg) translate(-60px, -130px);
 }
 
 .card-holder:hover .card:nth-child(6) {
-    transform: rotate(7deg) translate(150px, 88px);
+    transform: rotate(44deg) translate(250px, -90px);
 }
 
 .card-holder:hover .card:nth-child(8) {
-    transform: rotate(6deg) translate(100px, -70px);
+    transform: rotate(20deg) translate(135px, -158px)
 }
 
 /* big card hover start */
 
 .card-holder:hover .card:nth-child(1) {
-    transform: rotate(-15deg) translate(-190px, 30px);
+    transform: rotate(-20deg) translate(-90px, -50px);
 }
 
 .card-holder:hover .card:nth-child(3) {
-    transform: rotate(-10deg) translate(200px, -150px);
+    transform: rotate(-8deg) translate(-30px, -50px);
 }
 
 .card-holder:hover .card:nth-child(5) {
-    transform: rotate(4deg) translate(-200px, -200px);
+    transform: rotate(4deg) translate(30px, -50px);
 }
 
 .card-holder:hover .card:nth-child(7) {
-    transform: rotate(17deg) translate(210px, -10px);
+    transform: rotate(15deg) translate(90px, -60px);
 }
