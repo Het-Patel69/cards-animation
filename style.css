@@ -64,18 +64,22 @@ h1{
 /* Small Cards start */
 .card:nth-child(2) {
     background: var(--smallClr1);
+    z-index: 0;
 }
 
 .card:nth-child(4) {
     background: var(--smallClr2);
+    z-index: 1;
 }
 
 .card:nth-child(6) {
     background: var(--smallClr3);
+    z-index: 2;
 }
 
 .card:nth-child(8) {
     background: var(--smallClr4);
+    z-index: 3;
 }
 
 /* Small Cards end */
@@ -84,30 +88,30 @@ h1{
 .card:nth-child(1) {
     transform: rotate(-10deg);
     background: var(--bigClr1);
+    z-index: 1;
 }
 
 .card:nth-child(3) {
     transform: rotate(-3deg) translate(10px, -18px);
     background: var(--bigClr2);
+    z-index: 2;
 }
 
 .card:nth-child(5) {
     transform: rotate(1deg) translate(16px, -3px);
     background: var(--bigClr3);
+    z-index: 3;
 }
 
 .card:nth-child(7) {
     transform: rotate(7deg) translate(20px, -10px);
     background: var(--bigClr4);
+    z-index: 4;
 }
 
 /* big Cards initial end */
 
 /* after hover */
-
-.card-holder:hover .smallCard {
-    /* z-index: 3; */
-}
 
 /* small card hover start */
 .card-holder:hover .card:nth-child(2) {
@@ -123,7 +127,7 @@ h1{
 }
 
 .card-holder:hover .card:nth-child(8) {
-    transform: rotate(20deg) translate(135px, -158px)
+    transform: rotate(25deg) translate(135px, -180px);
 }
 
 /* big card hover start */
